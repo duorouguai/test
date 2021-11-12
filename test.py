@@ -7,9 +7,7 @@ import sklearn
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.ensemble import ExtraTreesClassifier
 from sklearn.model_selection import train_test_split
-dasa
-pandas
-pandas
+
 df = pd.read_csv("E:/Download/adult.csv", header=None,
                  names=['年龄', '单位性质', '权重', '学历', '受教育时长', '婚姻状况', '职业', '家庭情况', '种族', '性别', '资产所得', '资产损失', '周工作时长',
                         '原籍', '收入'])
